@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Defined page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Changing CSS variables using 
+        <span class="hl">JS</span>
+    </h1>
+
+    <div class="controls">
+        <label for="Spacing">Spacing:</label>
+        <input type="range" name="sizing" id="Spacing" min="0" max="25" value="10" data-unit="px">
+
+        <label for="Blur">Blur:</label>
+        <input type="range" name="blur" id="Blur" min="0" max="10" value="5" data-unit="px">
+        
+        <label for="Base_color">Color:</label>
+        <input type="color" name="base_color" id="Base_color" value="#ffc600">
+    </div>
+
+    <div class="image">
+        <img src="P1.png" alt="Could not load">
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

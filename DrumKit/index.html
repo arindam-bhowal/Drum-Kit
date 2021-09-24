@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-Kit</title>
+    <!-- ------Fonts------ -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- -------Fonts End--- -->
+    <link rel="stylesheet" href="Drum-kit.css">
+</head>
+<body>
+
+    <div class="keys">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+            <span class="sound">Clap</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+            <span class="sound">Crashes</span>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+            <span class="sound">Hats</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+            <span class="sound">khezie</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+            <span class="sound">Kicks</span>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+            <span class="sound">Rides</span>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+            <span class="sound">Snares</span>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd>
+            <span class="sound">Timbales</span>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd>
+            <span class="sound">Tom</span>
+        </div>
+    </div>
+
+    <audio src="Drum-Sounds/Clap.wav" data-key="65"></audio>
+    <audio src="Drum-Sounds/Crashes.wav" data-key="83"></audio>
+    <audio src="Drum-Sounds/Hats.wav" data-key="68"></audio>
+    <audio src="Drum-Sounds/khezie.wav" data-key="70"></audio>
+    <audio src="Drum-Sounds/Kicks.wav" data-key="71"></audio>
+    <audio src="Drum-Sounds/Rides.wav" data-key="72"></audio>
+    <audio src="Drum-Sounds/Snares.wav" data-key="74"></audio>
+    <audio src="Drum-Sounds/Timbales.WAV" data-key="75"></audio>
+    <audio src="Drum-Sounds/Tom.wav" data-key="76"></audio>
+
+
+    <script src="Drum-kit.js"></script>
+</body>
+</html>

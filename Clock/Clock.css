@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+
+.clock::before {
+    content: "";
+    background: url("Image.jpg") center center/cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .9;
+}
+
+.clock {
+    text-align: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.clock-face {
+    border: 20px solid rgb(43, 40, 40);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.hand{
+    border: 1px solid white;
+    background-color: white;
+    width: 245px;
+    height: 5px;
+    position: absolute;
+    top: 325px;
+    text-align: center;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.08, 2.91);
+}
+.minute-hand{
+    background-color: yellow;
+}
+.hour-hand{
+    background-color: violet;    
+}

@@ -1,0 +1,41 @@
+:root{
+    --sizing: 10px;
+    --blur: 5px;
+    --base_color: #ffc600;
+}
+
+body{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 49, 49);
+}
+h1{
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.hl{
+    color: var(--base_color);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.image img{
+    padding: var(--sizing);
+    object-fit: cover;
+    width: 80vw;
+    filter: blur(var(--blur));
+    background: var(--base_color);
+}
